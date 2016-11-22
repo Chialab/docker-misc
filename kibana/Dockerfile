@@ -1,4 +1,4 @@
 FROM kibana
 MAINTAINER dev@chialab.it
 
-RUN kibana plugin --install elasticsearch/marvel/latest
+RUN kibana-plugin install x-pack
