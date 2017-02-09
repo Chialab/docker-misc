@@ -1,4 +1,4 @@
-FROM chialab/elasticsearch
+FROM elasticsearch:2
 MAINTAINER dev@chialab.it
 
 RUN plugin install lmenezes/elasticsearch-kopf \
